@@ -1,6 +1,6 @@
 <?php
 
-namespace Qbhy\TtMicroApp;
+namespace Yong\TtMicroApp;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Lumen\Application;

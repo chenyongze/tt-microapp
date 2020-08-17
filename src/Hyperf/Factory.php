@@ -1,14 +1,14 @@
 <?php
 
-namespace Qbhy\TtMicroApp\Hyperf;
+namespace Yong\TtMicroApp\Hyperf;
 
 use Hyperf\Contract\ConfigInterface;
-use Qbhy\TtMicroApp\TtMicroApp;
-use \Qbhy\TtMicroApp\Factory as BaseFactory;
+use Yong\TtMicroApp\TtMicroApp;
+use \Yong\TtMicroApp\Factory as BaseFactory;
 
 /**
  * Class Factory
- * @package Qbhy\TtMicroApp
+ * @package Yong\TtMicroApp
  * @mixin TtMicroApp
  */
 class Factory extends BaseFactory

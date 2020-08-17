@@ -1,6 +1,6 @@
 <?php
 
-namespace Qbhy\TtMicroApp;
+namespace Yong\TtMicroApp;
 
 class TtMicroAppException extends \Exception
 {

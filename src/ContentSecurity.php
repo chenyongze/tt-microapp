@@ -1,12 +1,12 @@
 <?php
 
-namespace Qbhy\TtMicroApp;
+namespace Yong\TtMicroApp;
 
 use GuzzleHttp\RequestOptions;
 
 /**
  * Class ContentSecurity
- * @package Qbhy\TtMicroApp
+ * @package Yong\TtMicroApp
  */
 class ContentSecurity
 {

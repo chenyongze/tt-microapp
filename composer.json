@@ -1,11 +1,11 @@
 {
-    "name": "96qbhy/tt-microapp",
+    "name": "chenyongze/tt-microapp",
     "description": "字节跳动小程序sdk",
     "license": "MIT",
     "authors": [
         {
-            "name": "qbhy",
-            "email": "96qbhy@gmail.com"
+            "name": "yongze.chen",
+            "email": "sapphire@gmail.com"
         }
     ],
     "require": {
@@ -19,14 +19,9 @@
     "require-dev": {
         "hyperf/utils": "^1.1"
     },
-    "suggest": {
-        "96qbhy/alipay": "dev-master",
-        "hyperf/guzzle": "^1.1",
-        "hyperf/di": "^1.1"
-    },
     "autoload": {
         "psr-4": {
-            "Qbhy\\TtMicroApp\\": "src/"
+            "Yong\\TtMicroApp\\": "src/"
         },
         "files": [
             "src/Support/helper.php"
@@ -35,11 +30,11 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Qbhy\\TtMicroApp\\LaravelServiceProvider"
+                "Yong\\TtMicroApp\\LaravelServiceProvider"
             ]
         },
         "hyperf": {
-            "config": "Qbhy\\TtMicroApp\\ConfigProvider"
+            "config": "Yong\\TtMicroApp\\ConfigProvider"
         }
     }
 }

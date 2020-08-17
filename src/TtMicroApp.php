@@ -1,13 +1,13 @@
 <?php
 
-namespace Qbhy\TtMicroApp;
+namespace Yong\TtMicroApp;
 
 use Doctrine\Common\Cache\Cache;
 use Hanson\Foundation\Foundation;
 
 /**
  * Class TtMicroApp
- * @package Qbhy\TtMicroApp
+ * @package Yong\TtMicroApp
  *
  * @property-read AccessToken $access_token
  * @property-read Auth $auth

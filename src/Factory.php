@@ -1,10 +1,10 @@
 <?php
 
-namespace Qbhy\TtMicroApp;
+namespace Yong\TtMicroApp;
 
 /**
  * Class Factory
- * @package Qbhy\TtMicroApp
+ * @package Yong\TtMicroApp
  * @mixin TtMicroApp
  */
 class Factory

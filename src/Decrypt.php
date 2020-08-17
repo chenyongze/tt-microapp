@@ -1,14 +1,14 @@
 <?php
 
-namespace Qbhy\TtMicroApp;
+namespace Yong\TtMicroApp;
 
-use Qbhy\TtMicroApp\Support\AES;
-use Qbhy\TtMicroApp\Support\DecryptException;
+use Yong\TtMicroApp\Support\AES;
+use Yong\TtMicroApp\Support\DecryptException;
 
 /**
  *
  * Class Decrypt
- * @package Qbhy\TtMicroApp
+ * @package Yong\TtMicroApp
  */
 class Decrypt
 {

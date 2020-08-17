@@ -9,14 +9,14 @@
 * 支持 laravel/lumen、hyperf 框架
 
 ## 相关资源
-* QQ小程序php-sdk https://github.com/qbhy/qq-microapp
 
 ## 安装 - install
 ```bash
-$ composer require 96qbhy/tt-microapp 
+$ composer require chenyongze/tt-microapp 
 ```
 
 ## 使用 - usage
+
 ```php
 require 'vendor/autoload.php';
 
@@ -24,7 +24,7 @@ require 'vendor/autoload.php';
 $redisCache = new \Doctrine\Common\Cache\RedisCache();
 //$redisCache->setRedis($redis); // 设置你的 redis 实例，可选
 
-$factory = new \Qbhy\TtMicroApp\Factory($factoryConfig = [
+$factory = new \Yong\TtMicroApp\Factory($factoryConfig = [
     'debug' => true,
     'default' => 'default',
     'drivers' => [
@@ -44,7 +44,7 @@ $factory = new \Qbhy\TtMicroApp\Factory($factoryConfig = [
 $app = $factory->make('default');
 
 // 直接 new
-//    $app = new \Qbhy\TtMicroApp\TtMicroApp($appConfig);
+//    $app = new \Yong\TtMicroApp\TtMicroApp($appConfig);
 
 // 协程环境下，支持自定义 guzzle handler
 //    $app->rebind('guzzle_handler', \Hyperf\Guzzle\CoroutineHandler::class);
@@ -59,6 +59,9 @@ var_dump($app->decrypt->decrypt('encrypted data', 'session key', 'iv')); // 敏�
 var_dump($app->payment); // 支付
 ```
 
-php吹水交流群请添加: 873213948  
-https://github.com/qbhy/tt-microapp  
-96qbhy@gmail.com
+
+https://github.com/chenyongze/tt-microapp  
+
+## 联系
+
+sapphire@gmail.com

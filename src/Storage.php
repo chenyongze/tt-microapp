@@ -1,10 +1,10 @@
 <?php
 
-namespace Qbhy\TtMicroApp;
+namespace Yong\TtMicroApp;
 
 /**
  * Class Storage
- * @package Qbhy\TtMicroApp
+ * @package Yong\TtMicroApp
  */
 class Storage
 {

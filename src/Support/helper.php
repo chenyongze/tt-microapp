@@ -1,6 +1,6 @@
 <?php
 
-namespace Qbhy\TtMicroApp\Support;
+namespace Yong\TtMicroApp\Support;
 
 /**
  * Get client ip.

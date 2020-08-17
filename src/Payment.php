@@ -1,9 +1,9 @@
 <?php
 
 
-namespace Qbhy\TtMicroApp;
+namespace Yong\TtMicroApp;
 
-use function Qbhy\TtMicroApp\Support\get_client_ip;
+use function Yong\TtMicroApp\Support\get_client_ip;
 
 class Payment
 {

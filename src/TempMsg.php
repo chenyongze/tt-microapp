@@ -1,10 +1,10 @@
 <?php
 
-namespace Qbhy\TtMicroApp;
+namespace Yong\TtMicroApp;
 
 /**
  * Class TempMsg
- * @package Qbhy\TtMicroApp
+ * @package Yong\TtMicroApp
  */
 class TempMsg
 {
