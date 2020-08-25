@@ -13,9 +13,9 @@ class ServiceProvider implements ServiceProviderInterface
             return (new AccessToken($microApp))->setCache($microApp->cache);
         };
 
-        $pimple['http'] = function (TtMicroApp $microApp) {
-            return new HttpClient($microApp);
-        };
+        // $pimple['http'] = function (TtMicroApp $microApp) {
+        //     return new HttpClient($microApp);
+        // };
 
         $pimple['auth'] = function (TtMicroApp $microApp) {
             return new Auth($microApp);
